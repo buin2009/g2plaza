@@ -5,7 +5,7 @@ author: buin2009
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl: ""
 url: "http://buin2009.github.com"
-google_analytics:
+google_analytics: UA-34305400-1
 animated: false
 
 # Build settings
