@@ -6,7 +6,11 @@ layout: default
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
-
+<style>
+div#widget_bounds {
+  width: 100% !important;
+}
+</style>
 <div class="post-header mb2">
   <h1 class="py2">{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span><br>
@@ -29,8 +33,4 @@ layout: default
   data-first_party_property="BLOGGER"
   data-view_type="FILTERED_POSTMOD">
 </div>
-<style>
-div#widget_bounds {
-  width: 100% !important;
-}
-</style>
+
