@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Pixyll
+title: Giới thiệu G2Plaza
 permalink: /about/
 ---
 
