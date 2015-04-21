@@ -4,15 +4,10 @@ title: About Pixyll
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [Bui](http://buin.com).
-![iPhone 6](/img/iphone6-1.png)
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+#Giới thiệu
+Trang web G2 Plaza là trang web giới thiệu về các mặt hàng điện tử tiêu dùng dành cho khách hàng khu vực miền bắc.
 
-Thanks to the following:
+##Liên hệ:
+Văn phòng và cửa hàng: Tầng 4, 28 Ngô Thì Nhậm, Hà Đông, Hà nội
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+![g2plaza](/img/28-ngothinham-hadong.jpg)
