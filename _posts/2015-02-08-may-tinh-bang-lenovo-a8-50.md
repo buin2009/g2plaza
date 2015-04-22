@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Máy tính bảng Lenovo A8-80 8 inch cấu hình tầm trung
-date:       2014-06-08 11:21:29
+date:       2015-02-08 11:21:29
 summary:    Đây là máy tính bảng chạy Android 8 inch với chip Mediatek lõi tứ có giá cả tầm hơn 4 triệu
 categories: Lenovo
 thumb: /thumb/lenovo-a8.jpg
