@@ -1,8 +1,8 @@
 # Site settings
-title: M2 PLAZA
+title: G2 PLAZA
 email: buin2009@gmail.com
 author: buin2009
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Nhiều sản phẩm giảm giá mỗi ngày, kênh thông tin mua sắm"
 baseurl: ""
 url: "http://buin2009.github.com"
 google_analytics: UA-34305400-1
@@ -11,7 +11,7 @@ animated: false
 # Build settings
 markdown: kramdown
 permalink: none
-paginate: 3
+paginate: 5
 sass:
   compressed: true
 
