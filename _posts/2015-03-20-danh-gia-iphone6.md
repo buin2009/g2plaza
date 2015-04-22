@@ -2,7 +2,7 @@
 layout:     post
 title:      Đánh giá iPhone 6, so với iPhone 5s
 date:       2015-02-20 08:00:00
-
+summary:    iPhone 6 có màn hình to hơn, camera tốt hơn, tốc độ nhanh hơn, xứng đáng là bản nâng cấp đáng chờ đợi sau iPhone 5s đem lại kỳ vọng giành lại thị phần từ các đối thủ Samsung, HTC.
 thumb:      /thumb/iphone6-1.png
 categories: apple
 ---
