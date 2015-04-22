@@ -2,7 +2,7 @@
 layout:     post
 title:      Đánh giá iPhone 6, so với iPhone 5s
 date:       2015-02-20 08:00:00
-summary:    iPhone 6 có màn hình to hơn, camera tốt hơn, tốc độ nhanh hơn
+summary:    
 thumb:      /thumb/iphone6-1.png
 categories: apple
 ---
