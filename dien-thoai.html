@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "category", "apple" %}
+{% assign posts = site.posts  %}
 <div class="home">
-
+| where: "category", "apple"
   <div class="posts">
     {% for post in posts %}
       <div class="clearfix post {% if site.animated %}animated fade-in-down{% endif %}">
