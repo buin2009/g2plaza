@@ -6,7 +6,7 @@ layout: default
 
   <div class="posts">
     {% for post in site.posts %}
-    {% if site.posts.categories contains "apple" or site.posts.categories contains "htc"%}
+    {% if post.categories contains "apple" or post.categories contains "htc" %}
       <div class="clearfix post {% if site.animated %}animated fade-in-down{% endif %}">
       <img class="post-thumb" src="{{ post.thumb }}">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
