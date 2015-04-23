@@ -5,6 +5,7 @@ date:       2015-04-02 08:00:00
 summary:    Không có gì bí mật mà Samsung cần phải làm một cái gì đó lớn với điện thoại mới của mình, để mở ra một cái gì đó để ngăn chặn sự mục nát của Galaxy S4 đã bắt đầu cách đây hai năm.
 thumb:      /thumb/galaxy-s6.jpg
 categories: samsung
+tags: dien-thoai
 ---
 
 #Giới thiệu Samsung Galaxy S6
