@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-{% assign posts = (site.posts  | where: "category", "apple") %}
+
 <div class="home">
 
   <div class="posts">
-    {% for post in posts %}
+    {% for post in site.posts %}
+    {% if site.posts.categories contains "apple" or site.posts.categories contains "htc"%}
       <div class="clearfix post {% if site.animated %}animated fade-in-down{% endif %}">
       <img class="post-thumb" src="{{ post.thumb }}">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
@@ -15,6 +16,7 @@ layout: default
           <p class="post-summary">{{ post.summary }}</p>
         </a>
       </div>
+    {% endif %}
     {% endfor %}
   </div>
 
