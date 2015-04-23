@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <div class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts[apple] %}
       <div class="clearfix post {% if site.animated %}animated fade-in-down{% endif %}">
       <img class="post-thumb" src="{{ post.thumb }}">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
