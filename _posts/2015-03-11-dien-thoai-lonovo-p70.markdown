@@ -4,7 +4,8 @@ title:      Điện thoại Lenovo P70, hướng tới thị trường tầm tru
 date:       2015-03-11 15:31:19
 summary:    Điện thoại Lenovo P70 là sản phẩm kế tiếp của P780 với nâng cấp RAM lên 2GB và chíp Mediatek 64 bit. Giá sản phầm cũng định hướng tầm trung khoảng 5 triệu đồng. Tại thị trường Việt Nam tháng 3 này (2015), Lenovo bán ra với giá khoảng 4,7 triệu đồng là mức giá rất hấp dẫn với cầu hình.
 thumb: /thumb/lenovo-smartphone-p70-main.png
-categories: jekyll
+categories: lenovo
+tags: dien-thoai
 ---
 
 Sau thế hệ thứ hai của điện thoại thông minh pin "khủng hoảng" là P780 và S860 trước đây, các công ty Trung Quốc Lenovo đã ra mắt P70 với 4000 mAh pin được cấu hình với giá dưới 5 triệu máy.
