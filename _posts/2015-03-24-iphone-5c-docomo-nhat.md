@@ -4,7 +4,7 @@ title:      iPhone 5c bản khóa mạng Nhật, giá cạnh tranh về VN
 date:       2015-02-24 08:00:00
 summary:    iPhone 5c là phiên bản iPhone vỏ nhựa, nhiều màu hấp dẫn. Các cửa hàng tại VN đã nhanh chóng nhập về bản khóa mạng của các nhà mạng Nhật Bản như Docomo, Softbank
 thumb:      /thumb/iphone5c-4.png
-categories: apple
+category: apple
 ---
 
 #Giới thiệu iPhone 5c
