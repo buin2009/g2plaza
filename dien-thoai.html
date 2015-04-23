@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts  | where: "category", "apple | htc" %}
+{% assign posts = (site.posts  | where: "category", "apple") + (site.posts  | where: "category", "htc")%}
 <div class="home">
 
   <div class="posts">
