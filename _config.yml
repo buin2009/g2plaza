@@ -4,14 +4,14 @@ email: buin2009@gmail.com
 author: buin2009
 description: "Nhiều sản phẩm giảm giá mỗi ngày, kênh thông tin mua sắm"
 baseurl: ""
-url: "http://g2plaza"
+url: "http://g2plaza.com"
 google_analytics: UA-34305400-1
 animated: false
 
 # Build settings
 markdown: kramdown
 permalink: none
-paginate: 10
+paginate: 3
 sass:
   compressed: true
 
