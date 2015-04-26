@@ -11,7 +11,7 @@ animated: false
 # Build settings
 markdown: kramdown
 permalink: none
-paginate: 3
+paginate: 5
 sass:
   compressed: true
 
