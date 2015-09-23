@@ -18,5 +18,5 @@ sass:
 gems:
   - jekyll-sitemap  
 
-exclude s1.html, s2.html, html
+exclude: s1.html, s2.html, html
 
