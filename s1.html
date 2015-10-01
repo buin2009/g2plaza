@@ -62,8 +62,8 @@
           <button id="start_button" onclick="startButton(event)">START()</button>
         </div>
         <div id="results">
-          <span class="final" id="final_span"></span> <span class="interim" id=
-          "interim_span"></span>
+          <div class="final" id="final_span"></div> <div class="interim" id=
+          "interim_span"></div>
         </div>
         <div id="copy">
           <button class="button" id="copy_button" onclick="copyButton()">Copy and Paste</button>
@@ -257,10 +257,9 @@ if (!('webkitSpeechRecognition' in window)) {
     }
     for (var i = event.resultIndex; i < event.results.length; ++i) {
       if (event.results[i].isFinal) {
-        final_transcript += event.results[i][0].transcript;
-        console.log(event.results[i][0]);
+        final_transcript = event.results[i][0].transcript;
       } else {
-        interim_transcript += event.results[i][0].transcript;
+        interim_transcript = event.results[i][0].transcript;
       }
     }
     final_transcript = capitalize(final_transcript);
