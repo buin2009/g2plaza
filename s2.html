@@ -34,7 +34,7 @@ var createOutput = function() {
 var speak = function(text) {
 	// chrome://flags -> Enable experimental Web Platform features
 	var utterance = new SpeechSynthesisUtterance(text);
-	utterance.lang = 'en_GB';
+	utterance.lang = 'vi_VN';
 	utterance.volume = 1; // 0 to 1
 	utterance.rate = 1; // 0.1 to 10
 	utterance.pitch = 1; //0 to 2
@@ -45,7 +45,7 @@ var listen = function() {
 	var recognition = new webkitSpeechRecognition();
 	recognition.continuous = true;
 	recognition.interimResults = true;
-	recognition.lang = 'vn_VN';
+	recognition.lang = 'vi_VN';
 	recognition.start();
 	recognition.onresult = respond;
 	//recognition.onend = function(event) { console.log(event) };
