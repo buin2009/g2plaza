@@ -43,7 +43,7 @@ var speak = function(text) {
 
 var listen = function() {
 	var recognition = new webkitSpeechRecognition();
-	recognition.continuous = true;
+	recognition.continuous = false;
 	recognition.interimResults = true;
 	recognition.lang = 'en-US';
 	recognition.start();
