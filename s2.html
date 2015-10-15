@@ -5,6 +5,20 @@
 <style></style>
 <body>
 <script>
+var qs = (function(a) {
+    if (a == "") return {};
+    var b = {};
+    for (var i = 0; i < a.length; ++i)
+    {
+        var p=a[i].split('=', 2);
+        if (p.length == 1)
+            b[p[0]] = "";
+        else
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+    }
+    return b;
+})(window.location.search.substr(1).split('&'));
+
 var respond = function(event) {
 	var text = '';
 
@@ -17,7 +31,7 @@ var respond = function(event) {
 			output.innerHTML = text;
 			output.style.color = 'black';
 			output = createOutput();
-			//speak(text);
+			if (qs['t']==text) { speak("OK"); }
 		} else {
 			output.innerHTML = text;
 		}
