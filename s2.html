@@ -32,6 +32,7 @@ var respond = function(event) {
 			output.style.color = 'black';
 			output = createOutput();
 			if (qs['t']==text) { speak("OK"); }
+			else { speak("sorry"); }
 		} else {
 			output.innerHTML = text;
 		}
